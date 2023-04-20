@@ -1,0 +1,23 @@
+<!-- cria um objeto com os campos obrigatórios em aura -->
+
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<lightning:card title="Criar Oportunidade">
+    </lightning:card>
+    <lightning:recordEditForm aura:id="recordEditForm" objectApiName="Opportunity">
+    <lightning:messages />
+        
+		<div class="slds-grid">
+  		<div class="slds-col slds-p-horizontal_medium">
+		<lightning:inputField fieldName="Name" />
+        <lightning:inputField fieldName="CloseDate" />
+        <lightning:inputField fieldName="StageName" />
+        </div>
+        </div>
+        
+        <lightning:button class="slds-m-top_small" type="submit" label="Create new" />
+    </lightning:recordEditForm>
+
+    
+    
+
+</aura:component>
