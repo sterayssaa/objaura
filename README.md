@@ -1,2 +1,2 @@
 # objaura
-Criar um objeto através do Aura
+Criar um objeto através do Aura através do RecordEditForm
